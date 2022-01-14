@@ -21,10 +21,14 @@ toCompile.install();
 
 ### With TypeScript
 
-When using typescript, you need to import the jest type augmentations in your setup file like so:
+When using typescript, you need to add the jest type augmentations to your project. In order to do this, create a `jest.d.ts` file in your project root and add the following code:
 
 ```ts
-import `jest-ts-tocompile/types`
+declare namespace jest {
+  interface Matchers<R> {
+    toCompile(): R;
+  }
+}
 ```
 
 ## Usage

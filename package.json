@@ -1,6 +1,6 @@
 {
   "name": "jest-ts-tocompile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jest matchers to check if a TS file compiles",
   "main": "dist/index.js",
   "scripts": {

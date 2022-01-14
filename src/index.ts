@@ -35,3 +35,5 @@ export const install = (options: ts.CompilerOptions = {}) => {
     },
   });
 };
+
+export default { install };
