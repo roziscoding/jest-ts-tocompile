@@ -37,5 +37,8 @@
   "files": [
     "dist",
     "types.d.ts"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
